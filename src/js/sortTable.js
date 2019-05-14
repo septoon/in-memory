@@ -21,7 +21,7 @@ const createTable = (data) => {
     <td>${data[i].year}</td>
     <td>${data[i].imdb.toFixed(2)}</td>
     `;
-/
+
     if (counter > 4) {
       removeChildren(table);
     } else {
