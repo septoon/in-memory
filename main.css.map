@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/css/style.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA;;AAEA;AACA;AACA,C","file":"main.css","sourcesContent":["*{\n  margin: 0;\n  font-size: 25px;\n}\n\ntable {\n  margin: 20px;\n}\n\nth {\n  border: 1px solid #EDEDEE;\n}\n\ntd {\n  border: 1px solid #EDEDEE;\n}"],"sourceRoot":""}

@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  font-size: 25px;
+}
+
+table {
+  margin: 20px;
+}
+
+th {
+  border: 1px solid #EDEDEE;
+}
+
+td {
+  border: 1px solid #EDEDEE;
+}
+
+/*# sourceMappingURL=main.css.map*/
