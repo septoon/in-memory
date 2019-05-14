@@ -14,23 +14,14 @@ const createTable = (data) => {
     const table = document.querySelector('[data-table=table]');
     const trCreate = table.children[0];
     trCreate.appendChild(tr);
-
-    let td = document.createElement('td');
-    td.innerHTML = data[i].id;
-    trCreate.lastChild.appendChild(td);
-
-    td = document.createElement('td');
-    td.innerHTML = data[i].title;
-    trCreate.lastChild.appendChild(td);
-
-    td = document.createElement('td');
-    td.innerHTML = `(${data[i].year})`;
-    trCreate.lastChild.appendChild(td);
-
-    td = document.createElement('td');
-    td.innerHTML = `imdb: ${data[i].imdb.toFixed(2)}`;
-    trCreate.lastChild.appendChild(td);
-
+    
+    tr.innerHTML = `
+    <td>${data[i].id}</td>
+    <td>${data[i].title}</td>
+    <td>${data[i].year}</td>
+    <td>${data[i].imdb.toFixed(2)}</td>
+    `;
+/
     if (counter > 4) {
       removeChildren(table);
     } else {
